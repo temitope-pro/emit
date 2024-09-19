@@ -1,0 +1,33 @@
+.tems{
+    background-color: #172ce6;
+    width:300px;
+    border-radius: 10px;
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    rotate: left;
+}
+.myname{
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+.mine{
+    width: 400px;
+    height: 70px;
+    position: relative;
+    left: 30px;
+    
+}
+.mes{
+    background-color: rgb(228, 40, 40);
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 285px;
+    rotate: 45deg;
+}
+h2{
+    text-transform: capitalize;
+}

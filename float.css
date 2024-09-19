@@ -1,0 +1,14 @@
+.myimage{
+    float: left;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.ment{
+    float: right;
+}
+span{
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,116 @@
+table {
+    border: 1px solid blue;
+    background-color:green;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.men{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+td {
+    /* border: 1px solid blue; */
+    width: 350px;
+}
+
+.net {
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    text-transform: capitalize;
+}
+
+.internet {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+
+.know {
+    position: relative;
+    bottom: 40px;
+    left: 130px;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px inset orange;
+}
+
+.help {
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    text-transform: capitalize;
+}
+
+.chat {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+
+.moe {
+    position: relative;
+    bottom: 40px;
+    left: 130px;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px inset orange;
+}
+
+.vitual {
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    text-transform: capitalize;
+}
+
+.your {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+
+.more {
+    position: relative;
+    bottom: 40px;
+    left: 135px;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px inset orange;
+}
+.myimage{
+    width: 100px;
+    height: 100px;
+}
+.meta{
+    width: 100px;
+    height: 100px;
+}
+.mes{
+    width: 100px;
+    height: 100px;
+}
+.mock{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+.tower{
+    font-size: 70px;
+    position: relative;
+    bottom: 50px;
+    left: 130px;
+    
+}
+.pen{
+    font-size: 70px;
+    position: relative;
+    bottom: 50px;
+    left: 130px;
+}
