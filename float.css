@@ -12,3 +12,8 @@ span{
     color: blue;
     text-decoration: underline;
 }
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
