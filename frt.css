@@ -62,15 +62,9 @@ img{
 .child{
     display: flex;
     gap: 30px;
+    font-size: 20px;
 }
-button{
-    background-color: aquamarine;
-    color: white;
-    border: none;
-    width: 100px;
-    border-radius: 10px;
 
-}
 select {
     background-color: aquamarine;
     border: none;

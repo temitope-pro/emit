@@ -43,8 +43,11 @@ a{
     text-decoration: none;
     color:blue;
 }
+/* styles.css */
+
 .me{
     color: white;
+    text-decoration: none;
 }
 .parent {
     display: flex;
@@ -55,7 +58,7 @@ a{
     align-items: center;
     color: white;
 }
-img{
+.peel{
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -68,14 +71,7 @@ img{
 .child{
     display: flex;
     gap: 30px;
-}
-button{
-    background-color: aquamarine;
-    color: white;
-    border: none;
-    width: 100px;
-    border-radius: 10px;
-
+    font-size: 20px;
 }
 select {
     background-color: aquamarine;

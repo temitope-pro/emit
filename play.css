@@ -1,51 +1,67 @@
-.parent{
+body {
+    font-family: Arial, sans-serif; 
+    padding: 0;
+}
+
+.parent {
     background-color: white;
-    width: 1200px;
-    height: 500px;
-    box-shadow: 0px 2px 10px black;
+    width: 90%; 
+    max-width: 1200px;
+    height: auto; 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); 
     border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin: 100px auto; 
+    padding: 20px; 
 }
-.me{
+
+.me {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 150px;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
 }
-.child{
+
+.child {
     background-color: white;
     width: 300px;
-    height: 200px;
-    box-shadow: 0px 2px 10px black;
+    height: auto; 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); 
     border-radius: 10px;
     text-align: left;
+    padding: 20px; 
+    margin: 10px; 
+    transition: border 0.3s; 
 }
-h3{
-    color:blue;
-    /* text-align: center; */
-    font-size: 30px;
-    margin-left: 20px;
 
-}
-i{
-    margin-left: 20px;
-    font-size: 20px;
-
-}
-h1{
+h3 {
     color: blue;
+    font-size: 24px; 
+    margin: 10px 0; 
 }
-input{
-    display: none;
+
+i {
+    margin-left: 20px;
+    font-size: 16px; 
 }
-.child:has(input:checked){
-    border: 5px dashed blue;
+
+h1 {
+    color: blue;
+    text-align: center; 
 }
-.mes{
+
+input {
+    display: none; 
+}
+
+.child:has(input:checked) {
+    border: 5px dashed blue; 
+}
+
+.mes {
     color: white;
     text-decoration: none;
 }
-.check{
+
+.check {
     display: flex;
     justify-content: space-evenly;
     gap: 100px;
@@ -54,37 +70,43 @@ input{
     align-items: center;
     color: white;
 }
-.chill{
+
+.chill {
     display: flex;
-    gap: 30px;
+    gap: 30px; 
 }
-img{
+
+img {
     width: 30px;
     height: 30px;
-    border-radius: 100%;
-    padding-top: 10px;
+    border-radius: 50%; 
 }
-.pull{
+
+.pull {
     display: flex;
-    gap: 10px;
+    align-items: center; 
 }
-.chew{
-    display: flex;
-    gap: 30px;
-}
-button{
+
+button {
     background-color: aquamarine;
     color: white;
     border: none;
     width: 100px;
     border-radius: 10px;
-
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
+
+button:hover {
+    background-color: lightseagreen; 
+}
+
 select {
     background-color: aquamarine;
     border: none;
-    width: 100px;
+    width: 150px; 
     height: 50px;
     border-radius: 10px;
     text-align: center;
+    cursor: pointer; 
 }
