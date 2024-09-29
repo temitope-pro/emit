@@ -1,106 +1,36 @@
-.ment {
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
     background-color: green;
-    width: 1000px;
-    height: 350px;
-    margin-left: 100px;
-    margin-top: 70px;
-
-}
-
-.sss {
-    display: grid;
-    flex-direction: row;
     height: 100px;
+    align-items: center;
+    color: white;
 }
-.name{
-    display: flex;
-    justify-content: space-between 100px;
-    justify-content: space-around;
-    font-size: 70px;
-    color: rgb(12, 12, 12);
-    
-    
-}
-.ccc {
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
-}
-
-.ppp {
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
-    
-}
-
-.www {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-content: space-around;
-    margin-right: 20px;  
-    block-size: 20px;
-}
-
-.met {
-    text-transform: capitalize;
-    font-weight: bolder;
-}
-
-.wet {
-    text-transform: capitalize;
-    font-weight: bolder;
-    
-    
-}
-.det{
-    text-transform: capitalize;
-    font-weight: bolder;
-}
-
-.men {
-    /* text-align: center; */
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.internet {
-    text-align: center;
-}
-
-.chat {
-    text-align: center;
-}
-
-.your {
-    text-align: center;
-}
-
-.know {
-    background-color: orange;
-    outline: orange;
-    border: orange;
-    width: 100px;
+img{
+    width: 30px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 100%;
+    padding-top: 10px;
+}
+.pull{
+    display: flex;
+    gap: 10px;
+}
+.child{
+    display: flex;
+    gap: 30px;
 }
 
-.moe {
-    background-color: orange;
-    outline: orange;
-    border: orange;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
+.me{
+    color: white;
+    text-decoration: none;
 }
-
-.more {
-    background-color: orange;
-    outline: orange;
-    border: orange;
+select {
+    background-color: aquamarine;
+    border: none;
     width: 100px;
-    height: 30px;
+    height: 50px;
     border-radius: 10px;
+    text-align: center;
 }

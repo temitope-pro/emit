@@ -1,0 +1,87 @@
+.my-form>*{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ .my-form{
+    background-color: grey;
+    width: 500px;
+    height: 200px ; 
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 400px;
+ }
+.my-form p {
+    font-size: 50px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+
+}
+.my-form input{
+    width: 450px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+} 
+.my-form button{
+    width: 480px; 
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: aquamarine;
+    text-align: center  ;
+}
+.my-form:has(input:focus) {
+    border: 2px solid red;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.me{
+    color: white;
+}
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    background-color: green;
+    height: 100px;
+    align-items: center;
+    color: white;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding-top: 10px;
+}
+.pull{
+    display: flex;
+    gap: 10px;
+}
+.child{
+    display: flex;
+    gap: 30px;
+}
+button{
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+
+}
+select {
+    background-color: aquamarine;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}

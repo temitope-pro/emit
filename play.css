@@ -1,41 +1,51 @@
-.tems{
+.parent{
     background-color: white;
-    width:300px;
+    width: 1200px;
+    height: 500px;
+    box-shadow: 0px 2px 10px black;
     border-radius: 10px;
-    rotate: left;
-    box-shadow: 1px 2px 10px black;
-    padding-top: 10px;
-    margin-top: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
 }
-.myname{
+.me{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+.child{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 2px 10px black;
+    border-radius: 10px;
+    text-align: left;
+}
+h3{
+    color:blue;
+    /* text-align: center; */
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+i{
+    margin-left: 20px;
     font-size: 20px;
-    position: relative;
-    left: 30px;
+
 }
-.mine{
-    width: 400px;
-    height: 70px;
-    position: relative;
-    left: 30px;
-    
+h1{
+    color: blue;
+}
+input{
+    display: none;
+}
+.child:has(input:checked){
+    border: 5px dashed blue;
 }
 .mes{
-    background-color: blue;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    bottom: 100px;
-    left: 290px;
-    rotate: 45deg;
-    
-}
-h2{
-    text-transform: capitalize;
-}.me{
     color: white;
     text-decoration: none;
 }
-.parent {
+.check{
     display: flex;
     justify-content: space-evenly;
     gap: 100px;
@@ -43,6 +53,10 @@ h2{
     height: 100px;
     align-items: center;
     color: white;
+}
+.chill{
+    display: flex;
+    gap: 30px;
 }
 img{
     width: 30px;
@@ -54,7 +68,7 @@ img{
     display: flex;
     gap: 10px;
 }
-.child{
+.chew{
     display: flex;
     gap: 30px;
 }
