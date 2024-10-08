@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERANIYIFX</title>
+    <link rel="icon" href="asset/dima-solomin-upBKRmHJrCI-unsplash.jpg">
+    <link rel="stylesheet" href="fill.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="logopara">
+            <img src="asset/dima-solomin-upBKRmHJrCI-unsplash.jpg" alt="logo" class="mylogo">
+            <p>OPERANIYIFX COPY</p>
+        </div>
+        <div class="links">
+            <p><a href="index.html" class="me">HOME</a></p>
+            <p><a href="free.html" class="me">SMILE</a></p>
+            <p><a href="float.html" class="me">NECO</a></p>
+            <p><a href="me.html" class="me">SIMPLIFIED</a></p>
+            <p><a href="new.html" class="me">INNOVATION-PMI</a></p>
+            <form action="" method="get" id="linkForm">
+                <select name="project" id="linkSelect" onchange="if(this.value) { window.location.href=this.value; }">
+                    <option value="">PROJECT</option>
+                    <option value="#">PROJECT 1</option>
+                    <option value="time.html">PROJECT 2</option>
+                    <option value="frt.html">PROJECT 3</option>
+                    <option value="pull.html">PROJECT4</option>
+                </select>
+            </form>
+        </div>
+        <i class="fa fa-list"></i>
+    </div>
+    
+    <div class="parent">
+        <h1>Choose Your Profession</h1>
+        <div class="me">
+            <label class="child" for="username1">
+                <input type="radio" id="username1" name="profession">
+                <h3>Frontend Developer</h3>
+                <i>Implement / Create UI/UX Design</i><br>
+                <i>Develop Interactive Interface</i>
+            </label>
+            <label class="child" for="username2">
+                <input type="radio" id="username2" name="profession">
+                <h3>Backend Developer</h3>
+                <i>Database Management</i><br>
+                <i>API Development</i>
+            </label>
+            <label class="child" for="username3">
+                <input type="radio" id="username3" name="profession">
+                <h3>Project Manager</h3>
+                <i>Strategic Thinking</i><br>
+                <i>UX Design Principle</i>
+            </label>
+        </div>
+    </div>
+</body>
+
+</html>

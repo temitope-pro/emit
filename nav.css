@@ -1,0 +1,59 @@
+
+.me{
+    color: white;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: green;
+    height: 100px;
+    align-items: center;
+    color: white;
+}
+.mylogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding-top: 15px;
+}
+.logopara{
+    display: flex;
+    /* gap: 10px; */
+    font-size:20px ;
+}
+.links{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+select {
+    background-color: aquamarine;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.fa-list{
+    visibility: hidden;
+}
+@media (max-width:768px) {
+    .links{
+        display: none;
+    }
+    .fa-list{
+        display: inline;
+        font-size: 50px;
+        color: white;
+        visibility: visible;
+    }
+    .fa-list:hover{
+        background-color: blue;
+    }
+    .parent{
+        flex-direction: column;
+    }
+}

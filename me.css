@@ -1,57 +1,36 @@
-table{
+table {
     margin-top: 200px;
 }
-.me{
+
+.me {
     background-color: #008000;
 }
-.men{
+
+.men {
     background-color: #0000ff;
 }
-.mens{
+
+.mens {
     background-color: #ffff00;
 }
-.menss{
-    background-color:#ff0000;
-}.me{
+
+.menss {
+    background-color: #ff0000;
+}
+
+.me {
     color: white;
     text-decoration: none;
 }
-.parent {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 100px;
-    background-color: green;
-    height: 100px;
-    align-items: center;
-    color: white;
+.fa{
+    font-size: 70px;
+    display: none;
 }
-img{
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    padding-top: 10px;
-}
-.pull{
-    display: flex;
-    gap: 10px;
-}
-.child{
-    display: flex;
-    gap: 30px;
-}
-button{
-    background-color: aquamarine;
-    color: white;
-    border: none;
-    width: 100px;
-    border-radius: 10px;
-
-}
-select {
-    background-color: aquamarine;
-    border: none;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
-    text-align: center;
+@media (max-width:780px) {
+    .navigation{
+        display: none;
+    }
+    .links{
+        display: none !important;
+    }
 }

@@ -1,7 +1,4 @@
-body {
-    font-family: Arial, sans-serif; 
-    padding: 0;
-}
+
 
 .parent {
     background-color: white;
@@ -29,7 +26,7 @@ body {
     text-align: left;
     padding: 20px; 
     margin: 10px; 
-    transition: border 0.3s; 
+    transition: border 0.5s; 
 }
 
 h3 {
@@ -61,52 +58,15 @@ input {
     text-decoration: none;
 }
 
-.check {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 100px;
-    background-color: green;
-    height: 100px;
-    align-items: center;
-    color: white;
+.fa{
+    font-size: 70px;
+    display: none;
 }
-
-.chill {
-    display: flex;
-    gap: 30px; 
-}
-
-img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%; 
-}
-
-.pull {
-    display: flex;
-    align-items: center; 
-}
-
-button {
-    background-color: aquamarine;
-    color: white;
-    border: none;
-    width: 100px;
-    border-radius: 10px;
-    cursor: pointer; 
-    transition: background-color 0.3s; 
-}
-
-button:hover {
-    background-color: lightseagreen; 
-}
-
-select {
-    background-color: aquamarine;
-    border: none;
-    width: 150px; 
-    height: 50px;
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer; 
+@media (max-width:780px) {
+    .navigation{
+        display: none;
+    }
+    .links{
+        display: none !important;
+    }
 }
