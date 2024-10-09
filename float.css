@@ -1,0 +1,38 @@
+.myimage {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.mull {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.mew{
+    text-indent: 50px;
+}
+span {
+    color: blue;
+    text-decoration: underline !important   ;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline !important;
+}
+.me:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffcc00; /* Change color on hover */
+}
+
+@media (max-width:780px) {
+    .navigation{
+        display: none;
+    }
+    .links{
+        display: none !important;
+    }
+}
+
