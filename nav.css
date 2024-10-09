@@ -57,6 +57,10 @@ select {
     .parent{
         flex-direction: column;
     }
+    .memes{
+        display: block;
+    }
+    
 }
 .me:hover {
     text-decoration: underline; /* Underline on hover */

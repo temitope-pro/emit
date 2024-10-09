@@ -45,6 +45,10 @@ a{
 .fa{
     visibility: hidden;
 }
+.me:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffcc00; /* Change color on hover */
+}
 
 
 
