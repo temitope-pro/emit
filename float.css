@@ -14,13 +14,17 @@
 }
 span {
     color: blue;
-    text-decoration: underline;
+    text-decoration: underline !important   ;
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline !important;
+}
+.me:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffcc00; /* Change color on hover */
 }
 
 @media (max-width:780px) {

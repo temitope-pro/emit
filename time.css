@@ -32,10 +32,11 @@
 h2{
     text-transform: capitalize;
 }
-.fa{
+/* .fa-list{
     font-size: 70px;
-    display: none;
-}
+    /* display: none; */
+    visibility: hidden;
+} */
 @media (max-width:780px) {
     .navigation{
         display: none;

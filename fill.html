@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="dist/css/bootstrap.min.css">
 </head>
 
-<body>
+<body class="container">
     <div class="navigation">
         <div class="logopara">
             <img src="asset/dima-solomin-upBKRmHJrCI-unsplash.jpg" alt="logo" class="mylogo">
@@ -37,27 +39,31 @@
         <i class="fa fa-list"></i>
     </div>
     
-    <div class="parent">
-        <h1>Choose Your Profession</h1>
-        <div class="me">
-            <label class="child" for="username1">
-                <input type="radio" id="username1" name="profession">
-                <h3>Frontend Developer</h3>
-                <i>Implement / Create UI/UX Design</i><br>
-                <i>Develop Interactive Interface</i>
-            </label>
-            <label class="child" for="username2">
-                <input type="radio" id="username2" name="profession">
-                <h3>Backend Developer</h3>
-                <i>Database Management</i><br>
-                <i>API Development</i>
-            </label>
-            <label class="child" for="username3">
-                <input type="radio" id="username3" name="profession">
-                <h3>Project Manager</h3>
-                <i>Strategic Thinking</i><br>
-                <i>UX Design Principle</i>
-            </label>
+    
+    <div class="parent container my-4">
+        <h1 class="text-center">Choose Your Profession</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 text-center mb-4">
+                <label class="child">
+                    <input type="radio" id="username1" name="profession" aria-label="Frontend Developer">
+                    <h3>Frontend Developer</h3>
+                    <i>Implement / Create UI/UX Design<br>Develop Interactive Interface</i>
+                </label>
+            </div>
+            <div class="col-sm-12 col-md-4 text-center mb-4">
+                <label class="child">
+                    <input type="radio" id="username2" name="profession" aria-label="Backend Developer">
+                    <h3>Backend Developer</h3>
+                    <i>Database Management<br>API Development</i>
+                </label>
+            </div>
+            <div class="col-sm-12 col-md-4 text-center mb-4">
+                <label class="child">
+                    <input type="radio" id="username3" name="profession" aria-label="Project Manager">
+                    <h3>Project Manager</h3>
+                    <i>Strategic Thinking<br>UX Design Principle</i>
+                </label>
+            </div>
         </div>
     </div>
 </body>

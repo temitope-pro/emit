@@ -1,14 +1,13 @@
 .my-form>*{
     margin-top: 10px;
     margin-bottom: 10px;
+   
  }
  .my-form{
     background-color: grey;
-    width: 500px;
-    height: 200px ; 
-    text-align: center;
-    margin-top: 200px;
-    margin-left: 400px;
+    width: 400px;
+    height: 250px ; 
+    
  }
 .my-form p {
     font-size: 50px;
@@ -19,44 +18,106 @@
 
 }
 .my-form input{
-    width: 450px;
+    width: 300px;
     padding: 10px;
     border: 1px solid grey;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    /* margin-bottom: 10px; */
    
-} 
+}
+
 .my-form button{
-    width: 480px; 
+    width: 300px; 
     background-color: green;
     border-radius: 10px;
     border: none;
     font-size: 20px;
-    padding: 5px 10px;
     color: aquamarine;
     text-align: center  ;
 }
-.my-form:has(input:focus) {
+/* .my-form:has(input:focus) {
     border: 2px solid red;
-}
+} */
 a{
     text-decoration: none;
     color:blue;
 }
 /* styles.css */
 
-body{
+body {
     background-color: aquamarine;
+    margin: 0;
+    /* padding: 20px; */
 }
-.fa{
-    font-size: 70px;
-    display: none;
+
+.me {
+    color: white;
+    text-decoration: none;
 }
-@media (max-width:780px) {
-    .navigation{
-        display: none;
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: green;
+    height: 100px;
+    align-items: center;
+    color: white;
+}
+
+.mylogo {
+    width: 50px; /* Adjusted size */
+    height: 50px; /* Adjusted size */
+    border-radius: 100%;
+    padding-top: 15px;
+}
+
+.logopara {
+    display: flex;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+select {
+    background-color: white; /* Improved contrast */
+    border: 1px solid #ccc; /* Added border */
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px; /* Added padding */
+    cursor: pointer; /* Pointer on hover */
+}
+
+
+
+.me:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffcc00; /* Change color on hover */
+}
+
+@media (max-width: 780px) {
+    .navigation {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 10px;
     }
-    .links{
-        display: none !important;
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+        display: flex; /* Show links in mobile view */
     }
+
+    /* .fa {
+        display: block; /* Show the icon in mobile view */
+        cursor: pointer; /* Pointer for better UX */
+    } */
 }

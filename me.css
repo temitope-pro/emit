@@ -1,5 +1,7 @@
 table {
     margin-top: 200px;
+    /* display: flex; */
+    flex-direction:column ;
 }
 
 .me {
@@ -22,15 +24,13 @@ table {
     color: white;
     text-decoration: none;
 }
-.fa{
-    font-size: 70px;
-    display: none;
+.me:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ffcc00; /* Change color on hover */
 }
-@media (max-width:780px) {
-    .navigation{
-        display: none;
-    }
-    .links{
-        display: none !important;
+@media (max-width:768px) {
+    .table{
+        height: 500px !important;
+        width: 500px !important;
     }
 }
